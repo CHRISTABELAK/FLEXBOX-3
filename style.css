@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #e9e3e3;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+#banner{
+    background-image: linear-gradient(to bottom, rgba(20, 19, 19,0.8), rgba(20, 19, 20,0.8)), url('./assets/tall-buildings-in-downtown-toronto-PYAPYN.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#call-to-action{
+    padding-top: 12%;
+}
+
+#call-to-action h3{
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+#call-to-action h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+#thirdsection{
+    background-color: #FFC936;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+#button{
+    background-color: black; color:#fff;
+
+   
+    
+}
+#mainContainer{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    }
+
+#columnOne, #columnTwo{
+    flex-basis: 50%;
+    margin-top: 20%;
+}
+form{
+    background-color: black;
+    padding: 5%;
+
+
+}
+.reserveinput{
+    width: 100%;
+}
+
+input.reserveinput{
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+textarea.reserveinput{
+    padding: 3rem;
+    
+}
